@@ -31,7 +31,7 @@ env:
   IMAGE: aibuying_tool
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: ce310bf3df690425c8c88b511d0d16e01
-  ACK_DEPLOYMENT_NAME: nginx-deployment
+  ACK_DEPLOYMENT_NAME: gittest
 
   ACR_EE_REGISTRY: ggcnitabt-prod-cr-registry.cn-hangzhou.cr.aliyuncs.com
   ACR_EE_INSTANCE_ID: cri-9oq710pvxcyrsjru
