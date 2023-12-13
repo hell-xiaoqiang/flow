@@ -7,7 +7,6 @@ spec:
   type: NodePort
   selector:
     app: gittest
-    env: gucci
   ports:
   - name: http
     port: 8080
@@ -24,12 +23,10 @@ spec:
    selector: 
      matchLabels:
        app: gittest
-       env: gucci
    template:
      metadata:
        labels:
          app: gittest
-         env: gucci
      spec:
        containers:
        - name: gittest
