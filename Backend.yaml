@@ -33,7 +33,7 @@ spec:
      spec:
        containers:
        - name: gittest
-         image: ${REGISTRY}/${NAMESPACE}/${IMAGE}:${TAG}
+         image: REGISTRY/NAMESPACE/IMAGE:TAG
          ports:
          - name: httpd
            containerPort: 8080
